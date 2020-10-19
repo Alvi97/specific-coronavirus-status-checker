@@ -1,1 +1,14 @@
+@import "~leaflet/dist/leaflet.css";
+
+
+
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background:#D6E5E3;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

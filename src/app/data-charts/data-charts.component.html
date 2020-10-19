@@ -1,0 +1,23 @@
+<div class="row" *ngIf="dataTakenChecker">
+
+    <div class="col-sm-6">
+        <app-doughnut-chart></app-doughnut-chart>
+      </div>
+      <div class="col-sm-6">
+        <app-cases-per-million></app-cases-per-million>
+      </div>
+</div>
+
+
+<div class="row" style="margin-top: 15px;" *ngIf="dataTakenChecker">
+
+    <div class="col-sm-3">
+
+      </div>
+      <div class="col-sm-6">
+        
+        <app-cases-today></app-cases-today> 
+      </div>
+      <div class="col-sm-3">
+      </div>
+</div>

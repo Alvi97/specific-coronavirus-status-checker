@@ -1,0 +1,49 @@
+.total-cases .logo{
+    max-width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+ 
+.total-cases .card-content{
+    float: right;
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+.total-cases .card-body{
+    min-height: 125px;
+    padding: 2rem;
+}
+
+
+.total-cases .card-body .card-text{
+    text-align:center;
+}
+
+
+.total-cases .total .card{
+    border: 2px solid #7EB2DD;
+}
+
+.total-cases .deaths .card{
+    border: 2px solid #92140C;
+}
+
+
+.total-cases .recovered .card{
+    border: 2px solid #157145;  
+}
+
+@media only screen and (max-width: 800px) {
+
+
+    .total , .deaths , .recovered{
+        margin-top: 10px;
+    }
+
+
+
+}

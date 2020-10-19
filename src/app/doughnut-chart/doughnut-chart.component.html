@@ -1,0 +1,9 @@
+<div style="display: block" >
+    <span class="chart-desc">General Country Cases Chart</span>
+    <span *ngIf="!displayChart">Waiting for data...</span>
+    <canvas *ngIf="displayChart" baseChart
+                [data]="doughnutChartData"
+                [labels]="doughnutChartLabels"
+                [chartType]="doughnutChartType"
+                [colors]="pieChartColors"></canvas>
+  </div>

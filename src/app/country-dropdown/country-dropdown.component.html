@@ -1,0 +1,12 @@
+<div class="dropdown">
+    <h3>Select The Desired Country</h3>
+    <mat-form-field appearance="fill" class="country-dropdown">
+        <mat-label>Select Country</mat-label>
+        <mat-select (selectionChange)="applySelectFilter($event)">
+          <mat-option *ngFor="let country of countries" [value]="country">
+            {{country}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+</div> 
+ 

@@ -1,0 +1,38 @@
+    <div class="row total-cases">
+      <div class="col-sm-4 total">
+        <div class="card">
+            <div class="card-body">
+                    <img class="logo" src="https://www.flaticon.com/svg/static/icons/svg/1556/1556229.svg"/>
+                <div class="card-content">
+                    <h5 class="card-title">Total Cases</h5>
+                    <p class="card-text">{{cases | number : '1.1-2'}}</p>
+                </div>
+
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4 deaths">
+        <div class="card">
+            <div class="card-body">
+                    <img class="logo" src="https://www.flaticon.com/svg/static/icons/svg/1699/1699126.svg"/>
+                <div class="card-content">
+                    <h5 class="card-title">Total Deaths</h5>
+                    <p class="card-text">{{deaths | number : '1.1-2'}}</p>
+                </div>
+
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4 recovered" >
+        <div class="card">
+            <div class="card-body">
+                    <img class="logo" src="https://www.flaticon.com/svg/static/icons/svg/3418/3418854.svg"/>
+                <div class="card-content">
+                    <h5 class="card-title">Total Recovered</h5>
+                    <p class="card-text">{{recovered | number : '1.1-2'}}</p>
+                </div>
+
+            </div>
+          </div>
+      </div>
+    </div>

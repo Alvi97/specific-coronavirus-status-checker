@@ -1,0 +1,11 @@
+<div style="display: block" >
+    <span class="chart-desc">Daily Country Cases Chart</span>
+    <canvas *ngIf="displayChart" baseChart
+                [data]="doughnutChartData"
+                [labels]="doughnutChartLabels"
+                [chartType]="doughnutChartType"
+                [colors]="pieChartColors"></canvas>
+  </div>
+  <div *ngIf="!displayChart" style="display:block;text-align:center">
+    <span>Today Cases have not been updated yet</span>
+  </div>
